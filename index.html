@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- icon font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo:ital,wght@0,400..700;1,400..700&family=Dancing+Script:wght@400..700&family=Gravitas+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+         <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- aos animation -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- nav bar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.avif" alt="logo">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="link" href="#home">HOME</a></li>
+                <li class="list-items"><a class="link" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="link" href="#skill">SKILLS</a></li>
+                <li class="list-items"><a class="link" href="#contact">CONTACT</a></li>
+
+            </ul>
+        </nav>
+        <!-- home page -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__tada" id="username">im Hannah <span id="lname">Wilke</span></h1>
+                <p id="user-details">im a wild life photographer.interested to click nature beauty and animals. <br>
+                    this is my passion.i love to do this!</p>
+                <a href="./images/Theory test HTML.pdf" id="download" download>DOWNLOAD CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/bg.png" alt="shape">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/ladyy.png" alt="girl">
+            </div>
+
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <!-- heading -->
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">introduction</span>
+            </div>
+            <!-- about body -->
+            <div class="aboutbody">
+                <div class="aboutimage">
+                    <img class="img1" src="./images/girlcam.png" alt="about pic">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore id eos <br> quam dolores
+                        nostrum magni minima illo laudantium recusandae, dicta voluptate iste <br> enim dolorem aperiam
+                        ratione et fugit molestias atque.</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Hannah Wilke</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8891354105</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>hannahwilke@gmail.com</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skill">
+             <div class="sectionhead">
+            <h2 class="mainhead">Skills</h2>
+            <span class="subhead">My Skills</span>
+        </div>
+            <div class="skillcontent">
+                <div class="progressBars">
+                    <!-- portrait Bar -->
+                    <div class="bars">
+                        <h3 class="barhead">Portraits</h3>
+                        <span class="barpercent">90%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar portraitbar"> </div>
+                    </div>
+                    <!-- landscape bar -->
+                    <div class="bars">
+                        <h3 class="barhead">Landscape</h3>
+                        <span class="barpercent">98%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar landscapebar"></div>
+                    </div>
+                    <!-- Editing bar -->
+                    <div class="bars">
+                        <h3 class="barhead">Editing</h3>
+                        <span class="barpercent">85%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar editbar"></div>
+                    </div>
+                    <!-- Wildlife bar -->
+                    <div class="bars">
+                        <h3 class="barhead">Wildlife</h3>
+                        <span class="barpercent">70%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar wildbar"></div>
+                    </div>
+                </div>
+                <div  class="skillimage">
+                    <img class="myskills" src="./images/group pic.png" alt="skill image">
+                </div>
+            </div>
+        </section>
+
+    <!-- contact page -->
+
+    <section id="contact">
+        <div class="sectionhead">
+            <h2 class="mainhead">contact</h2>
+            <span class="subhead">my contact</span>
+        </div>
+        <!-- icons -->
+         <div class="iconcollection">
+            <div class="icon">
+                <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/login" target="_blank"><i class="fa-brands fa-github brands"></i></i></a>
+            </div>
+            <div class="icon">
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+            </div>
+            <div class="icon">
+                <a href="https://x.com/i/flow/login" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+            </div>
+            <div class="icon">
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+            </div>
+            <div class="icon">
+                <a href="https://www.facebook.com/login.php/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+            </div>
+            
+         </div>
+    </section>
+    <footer>
+        <p id="copyright">&copy;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&reg; Error doloremque incidunt nulla suscipit minima pariatur delectus doloribus! Eaque quo,</p>
+        <div class="icon uparrow">
+                <a href="#container" target="_blank"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+    </footer>
+    </div>
+</body>
+<!-- aos script js -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
+
+</html>

@@ -1,0 +1,120 @@
+ <section id="skill">
+            <div class="sectionhead">
+                <!-- heading -->
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">MY Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbars">
+                    <!-- potraitsbar -->
+                    <div class="bars">
+                        <h3 class="barhead">Prtraits</h3>
+                        <span class="barpercent">78%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar potraitbar">
+                        </div>
+                    </div>
+
+                    <!-- landscapebar -->
+                    <div class="bars">
+                        <h3 class="barhead">landscape</h3>
+                        <span class="barpercent">78%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar landscapebar"></div>
+                    </div>
+
+
+                    <!-- editingbar -->
+                    <div class="bars">
+                        <h3 class="barhead">editing</h3>
+                        <span class="barpercent">78%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar editbar"></div>
+                    </div>
+
+
+                    <!-- wildlifebar -->
+                    <div class="bars">
+                        <h3 class="barhead">wildlife</h3>
+                        <span class="barpercent">78%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar wildlifebar"></div>
+                    </div>
+                </div>
+                <div class="skillimg">
+                    <img src="./images/group pic.png" alt="skillimg" class="myskill">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <!-- footer -->
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- css -->
+
+
+.skillcontent{
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 30px; 
+}
+
+.bars{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+
+.barhead .barpercent{
+    font-size: 1.3rem;
+    font-weight: 500px;
+}
+
+.basebar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.potraitbar{
+    background-color: greenyellow;
+    width: 90%;
+}
+
+.landscapebar{
+    background-color: greenyellow;
+    width: 90%;
+}
+
+
+.editbar{
+    background-color: greenyellow;
+    width: 90%;
+}
+
+
+.wildlifebar{
+    background-color: greenyellow;
+    width: 90%;
+}
+
+.myskill{
+    width: 80%;
+}
+
+.skillimg{
+    width: 50%;
+    
+}
