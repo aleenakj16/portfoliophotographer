@@ -49,7 +49,7 @@ nav{
     margin-bottom: 20px;
     font-family: "Sofia", cursive ;
 }
-#lname{
+.lname{
         font-family: "Sofia", cursive ;
         color: rgba(5, 176, 111, 0.989);
 }
@@ -238,7 +238,7 @@ font-size: 1.3rem;
 }
 
 .icon:hover{
-    background-image: linear-gradient(to bottom right,green,rgb(83, 156, 70),rgb(147, 101, 101));
+    background-image: linear-gradient(to bottom right,rgb(145, 104, 28),rgb(83, 156, 70));
 }
 
 .icon:hover .brands{
@@ -249,24 +249,24 @@ font-size: 1.3rem;
 
 @keyframes myanimation{
     0%{
-        transform: rotate(90deg);
+        transform: rotate(0deg);
     }
      25%{
-        transform: rotate(180deg);
+        transform: rotate(30deg);
     }
      50%{
-        transform: rotate(180deg);
+        transform: rotate(-30deg);
     }
      75%{
-        transform: rotate(270deg);
+        transform: rotate(0deg);
     }
      100%{
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
 
 footer{
-    margin: 13% 0px 10% 8%;
+    margin: 13% 0px 50% 8%;
 }
 
 
